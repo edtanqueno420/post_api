@@ -1,0 +1,60 @@
+# Node.js (común para React y NestJS)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.temp/
+.cache/
+.eslintcache
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+
+# Otros
+*.tgz
+*.tsbuildinfo
+
+# Ignorar archivos en cualquier subcarpeta de proyectos
+**/node_modules/
+**/dist/
+**/build/
+**/.env
+**/.env.*
+**/.next/
+**/coverage/
+**/.turbo/
