@@ -2,16 +2,13 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
-  getMyNewEndpoint(): string {
-    return 'Hello desde MyNewEndpoint!';
-  }
-  health(): object{
+  getHealth(): any {
     return {
-      service:'Blog Backend Api',
-      version:'Online',
-     };
-   }
+      success: true,
+      message: 'tanqueno-post-api on line',
+      data: 'Sistema Posts API',
+      version: '1.0.0',
+    }
+  }
+  
 }
